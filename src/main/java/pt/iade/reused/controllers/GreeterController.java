@@ -25,4 +25,5 @@ public class GreeterController {
         logger.info("Saying Hello to "+name);
         return "Hello "+name;
     }
-}   // ola teste 3
+
+}   // ola teste 4
