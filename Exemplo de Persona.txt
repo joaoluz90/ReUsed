@@ -1,0 +1,5 @@
+Personas e Guiões
+
+Os clientes registam-se na nossa app, fornecendo vários dados pessoais assim como as moradas respetivas.
+Existe um doador com as respetivas informações adjacentes ao mesmo, que pretende doar um equipamento/mobília à comunidade ReUsed. A nossa app recolhe esse tal bem, através dos nossos colaboradores, que se deslocam às casas designadas de forma a recolher as informações respetivas ao equipamento/mobília e, assim, fazer uma avaliação do mesmo. Por sua vez, o recebedor entra na nossa app, procura o bem desejado e seleciona-o através das informações disponibilizadas, proporcionando-lhe a avaliação do mesmo, que é feita através numa escala de letras de modo ao recebedor ter uma noção do estado desse tal bem.
+Com isto, é dado ao doador um certo número de pontos pela doação, onde é encaixado numa certa categoria.
