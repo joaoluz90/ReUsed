@@ -24,5 +24,5 @@ public class GreeterController {
     public String getGreeting(@PathVariable("name") String name) {
         logger.info("Saying Hello to "+name);
         return "Hello "+name;
- }
-}//okay
+    }
+}   // ola teste
