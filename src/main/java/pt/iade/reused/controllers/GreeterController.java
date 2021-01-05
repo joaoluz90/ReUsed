@@ -1,5 +1,6 @@
 package pt.iade.reused.controllers;
 
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.MediaType;
@@ -10,13 +11,13 @@ import org.springframework.web.bind.annotation.RestController;
 
 // mvnw spring-boot:run
 
-@RestController
+@RestController                                 // http://localhost:8080/api/greeter/Joao A
 @RequestMapping(path="/api/greeter")
 public class GreeterController {
     private Logger logger = LoggerFactory.getLogger(GreeterController.class);
     @GetMapping(path = "", produces= MediaType.APPLICATION_JSON_VALUE)
     public String getGreeting() {
-        logger.info("Saying Hello to the world");
+        logger.info("Saying to you Za warudo");
         return "Za warudo";
  }
     @GetMapping(path = "{name}",
