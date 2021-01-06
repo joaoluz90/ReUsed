@@ -1,5 +1,7 @@
 package pt.iade.reused.models;
 
+import java.time.LocalDate;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -16,17 +18,15 @@ public class Colaborador {
     private String C_nomeP;
     private String C_nomeU;
     private String C_genero;
-    //private String C_data;
+    private LocalDate C_nascimento;
+    public Colaborador() {}
 
-    public Colaborador() {
-    }
-
-    public Colaborador(int c_ID, String c_nomeP, String c_nomeU, String c_genero/*, String c_data*/) {
+    public Colaborador(int c_ID, String c_nomeP, String c_nomeU, String c_genero,LocalDate c_nascimento) {
         C_ID = c_ID;
         C_nomeP = c_nomeP;
         C_nomeU = c_nomeU;
         C_genero = c_genero;
-        //C_data = c_data;
+        C_nascimento = c_nascimento;
     }
 
     public int getC_ID() {
@@ -45,7 +45,8 @@ public class Colaborador {
         return C_genero;
     }
 
-    //public String getC_data() {
-    //    return C_data;
-    //}
+    public LocalDate getC_nascimento() {
+        return C_nascimento;
+    }
+ 
 }
