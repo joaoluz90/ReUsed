@@ -10,11 +10,10 @@ import javax.persistence.Table;
 @Table(name ="escala")  //nome real da tabela no SQL
 public class Escala {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)     //atributos todos com letra minusculas!!!!
     private int Esc_ID;
     private String Esc_Descricao;
-    public Escala() {
-    }
+    public Escala() {}
 
     public Escala(int esc_ID, String esc_Descricao) {
         Esc_ID = esc_ID;
