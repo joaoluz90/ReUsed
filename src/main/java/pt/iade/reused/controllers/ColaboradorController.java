@@ -23,4 +23,4 @@ public class ColaboradorController {
     logger.info("enviar todos os colaboradores");
         return colaboradorRepository.findAll();
     }
-} // okay
+} //  poi

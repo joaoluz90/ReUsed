@@ -21,6 +21,7 @@ public class Colaborador {
     private LocalDate C_nascimento;
     public Colaborador() {}
 
+    
     public Colaborador(int c_ID, String c_nomeP, String c_nomeU, String c_genero,LocalDate c_nascimento) {
         C_ID = c_ID;
         C_nomeP = c_nomeP;

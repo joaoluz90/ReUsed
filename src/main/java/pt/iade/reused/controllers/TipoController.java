@@ -11,8 +11,8 @@ import pt.iade.reused.models.Tipo;
 import pt.iade.reused.repositories.TipoRepository;
 
 
-@RestController                              // http://localhost:8080/api/tipod  mvnw spring-boot:run
-@RequestMapping(path = "/api/tipod")
+@RestController                              // http://localhost:8080/api/invt  mvnw spring-boot:run
+@RequestMapping(path = "/api/invt")
 public class TipoController {
     private Logger logger = LoggerFactory.getLogger(TipoController.class);
     @Autowired
@@ -20,7 +20,7 @@ public class TipoController {
     @GetMapping(path = "", produces = MediaType.APPLICATION_JSON_VALUE)
 
     public Iterable<Tipo> getTipos() {
-    logger.info("Enviar todos os tipos");
+    logger.info("Enviar todo o inventario");
         return tipoRepository.findAll();
     }
-}
+}   //poi

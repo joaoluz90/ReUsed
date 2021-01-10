@@ -28,4 +28,4 @@ public class Escala {
         return Esc_Descricao;
     }
 
-}    // ok
+}    // poi

@@ -7,6 +7,7 @@ import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
 import pt.iade.reused.models.Escala;
 import pt.iade.reused.repositories.EscalaRepository;
 
@@ -23,4 +24,4 @@ public class EscalaController {
     logger.info("Enviar todos as escalas");
         return escalaRepository.findAll();
     }
-}
+}   //poi
