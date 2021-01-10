@@ -1,3 +1,4 @@
+/*
 package pt.iade.reused.controllers;
 
 
@@ -28,3 +29,4 @@ public class GreeterController {
     }
 
 }   // ola teste funcional 
+*/

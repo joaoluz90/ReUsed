@@ -26,25 +26,25 @@ No âmbito do Desenvolvimento sustentável, foram desenhados alguns objetivos, p
 
 ## Casos de utilização:
 
-1)Inserir os seus "bens" para serem doados/arranjados. 
-  O utilizador inscreve-se na aplicação e a partir dai já poderá disponibilizar os seus bens através de uma foto e com uma respetiva descrição.
-  **Pré-condições:** - O utilizador deve estar logado na aplicação.
+1)Inserir os seus "bens" para serem doados
+  O utilizador inscreve-se na aplicação e a partir dai já poderá disponibilizar inserir a doação com uma respetiva descrição.(**Caso de utilização indiponivel**)
+  **Pré-condições:** - NA
   **Passo a passo:** - 1.Recolher informações sobre um bem a ser disponibilizado.
                      - 2.Inserir as informações na aplicação.
-                     - 3.Aguardar resposta por parte da aplicação.
+                     - 3.Aguardar comfirmação por parte da aplicação.
 
     
 
-2)Receber indicação para recolha dos bens.
-  Como referido no último passo do caso de utilização anterior é aguardada uma resposta por parte da aplicação onde é recebida a confirmação que a recolha pode realizada e consequentemente poderá ser feita o agendamento da mesma.
+2)Acesso ao inventario de bens.
+  Como referido no último passo do caso de utilização anterior é aguardada uma resposta por parte da aplicação. (**Este caso de utilização já disponível na aplicação, /invt**)
   **Pré-condições:** - NA
-  **Passo a passo:** - 1.Receber a confirmação da recolha.
-                     - 2.Agendar a recolha.
+  **Passo a passo:** - 1.Fazer o pedido a aplicaçao sobre a consulta do inventario.
+                     - 2.Acesso para consulta do inventario de todos as doações disponiveis.
 
  
    
 3)Entregar os respetivos bens aos nossos colaboradores.
-  Agendada a recolha existe uma deslocação dos nossos colaboradores ao local e hora combinadas. Sendo assim feita a entrega dos bens aos nossos funcionários.
+  Agendada a recolha existe uma deslocação dos nossos colaboradores ao local e hora combinadas. Sendo assim feita a entrega dos bens aos nossos funcionários.(**Caso de utilização indiponivel**)
   **Pré-condições:** - Confirmação e agendamento da recolha.
   **Passo a passo:** - 1.Agendar a recolha.
                      - 2.Coletar os bens.
