@@ -1,6 +1,6 @@
 # Aplicação para Recolha de bens usados
 
-*Link para DER: WIP
+*Link para DER: shorturl.at/krtE1
 *Link para Diagrama de classes: WIP
 
 ## Autores:
